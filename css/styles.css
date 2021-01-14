@@ -9,7 +9,7 @@
 */
 
 
-/* ---- Base Rules ---- */
+/* ---- Base Rules -- */
 body {
     background: rgb(136,203,171);
     background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-    border-bottom: 1px solid #cc1;
+    border-bottom 1px solid #cc1;
     font-family: 'Oxygen', Sans-Serif;
     font-size: 3em;
     color: #fff;
@@ -122,6 +122,20 @@ section {
         text-align: center;
     }
   }
+/* scroll to up */
+#scroll-top{
+    width:70px;
+    height:70px;
+    border:3px green solid;
+    border-radius: 50%;
+    background: rgb(0, 0, 0,.5);
+    display:grid;
+    place-items: center;
+    float: right;
+    margin-right:40px;
+    margin-top: 80px;
+    cursor: pointer;
+}
 /* Footer Styles */
 .page__footer {
     background: #000;
